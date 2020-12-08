@@ -1,0 +1,121 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login to the App",
+        "description": "",
+        "id": "login-functionality;login-to-the-app;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "CtoK app is luanched",
+            "match": {
+              "location": "Login.ctok_app_is_luanched()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user Clicks on SignIn button",
+            "match": {
+              "location": "Login.user_Clicks_on_SignIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User Enters username \"mzakkar@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mzakkar@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_Enters_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User Enters password \"test123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test123",
+                  "offset": 22
+                }
+              ],
+              "location": "Login.user_Enters_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User Clicks on login button",
+            "match": {
+              "location": "Login.user_Clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "SignIn should be \"successful\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "successful",
+                  "offset": 18
+                }
+              ],
+              "location": "Login.signin_should_be(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

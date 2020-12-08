@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0">
+<testcase classname="Login Functionality" name="Login to the App" time="0">
+<system-out><![CDATA[Given CtoK app is luanched..................................................skipped
+When user Clicks on SignIn button...........................................skipped
+And User Enters username "mzakkar@gmail.com"................................skipped
+And User Enters password "test123"..........................................skipped
+And User Clicks on login button.............................................skipped
+Then SignIn should be "successful"..........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
